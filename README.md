@@ -16,80 +16,7 @@
 
 ---
 
-## 📊 Código Python — Gerar Gráfico RC
 
-Salve o código abaixo como **`grafico_rc.py`** e execute para visualizar o comportamento do circuito RC com os dados coletados do Arduino.
-
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-from io import StringIO
-
-# --- Dados coletados do Arduino ---
-dados_txt = """10 0.00 5.00
-2411 0.05 4.95
-2813 0.05 4.95
-3216 0.05 4.95
-3618 0.05 4.95
-4021 0.05 4.95
-4422 0.05 4.95
-4825 0.05 4.95
-5227 0.05 4.95
-5629 0.05 4.95
-6031 0.05 4.95
-6433 0.05 4.95
-6836 0.05 4.95
-7238 0.05 4.95
-7641 0.05 4.95
-8042 0.05 4.95
-8444 0.05 4.95
-8847 0.05 4.95
-9249 0.05 4.95
-9651 0.05 4.95
-10053 0.05 4.95
-10456 0.05 4.95
-10858 0.05 4.95
-11260 0.05 4.95
-11663 0.05 4.95
-12065 0.05 4.95
-12468 0.05 4.95
-12870 0.05 4.95
-13272 0.05 4.95
-13674 0.05 4.95
-14076 0.05 4.95
-14479 0.05 4.95
-14881 0.05 4.95
-15284 0.05 4.95
-15686 0.05 4.95
-16089 0.05 4.95
-16491 0.05 4.95
-16893 0.05 4.95
-17295 0.05 4.95
-17697 0.05 4.95
-18100 0.05 4.95
-18502 0.05 4.95
-18905 0.05 4.95
-19307 0.05 4.95
-19709 0.05 4.95
-20112 0.05 4.95
-20514 0.05 4.95
-20917 0.05 4.95
-21318 0.05 4.95
-21721 0.05 4.95
-22123 0.05 4.95
-22525 0.05 4.95
-22928 0.05 4.95
-23330 0.05 4.95
-23733 0.05 4.95
-24135 0.05 4.95
-24538 0.05 4.95
-24940 0.05 4.95
-25341 0.05 4.95
-25744 0.05 4.95
-```
-
-# --- Conversão para DataFrame ---
-dados = pd.read_csv(StringIO(dados_txt), sep=" ", names=["tempo_ms", "tensao_capacitor", "tensao_resistor"])
 
 ###  Código do Arduino (Para o Tinkercad)
 
@@ -125,7 +52,7 @@ void loop() {
 }
 ```
 
-## 4.2. Código Python (Para Análise dos Dados)
+##  Código Python (Para Análise dos Dados)
 
 Este script lê o arquivo de texto com os dados copiados do Tinkercad e gera os gráficos.  
 Não há conexão em tempo real.
