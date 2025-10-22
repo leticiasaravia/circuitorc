@@ -1,5 +1,7 @@
 ## 🔌 TinkerCad  
 [🔗 Acesse o circuito no TinkerCad](https://www.tinkercad.com/things/56l0xUr2CtW/editel?returnTo=%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=gkkSldykQaZ8YRJdrQm6zkrcdCo3B7IxjZjaIHMSPcM)
+<img width="1906" height="638" alt="image" src="https://github.com/user-attachments/assets/4d0176eb-72bd-4dcb-a889-85b9add3c7bb" />
+
 
 ### 🖼️ Montagem do Circuito
 <img width="1979" height="1180" alt="image" src="https://github.com/user-attachments/assets/8ddc374a-1d33-4a14-bf2c-7a4ddd381b72" />
